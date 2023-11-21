@@ -18,5 +18,6 @@ In the song dataset, increasing the number of clusters will result in smaller an
 	
 For the image compression dataset, increasing the amount of clusters we have would mean a higher level of detail in the compressed image, but also a larger file size. But if we have too many clusters, then the compressed image might appear distorted. Having less clusters would mean a smaller image size and simpler image overall, but with less detail and a lower overall quality. 
 
+
 ## Results
 In the code/output directory, we have grouped the songs into a number of clusters based on their acousticness, liveness, and speechiness. Four was found to be the optimal number of clusters for our dataset, as in the elbow plot we can see that the point of inflection occurs at around 4 clusters, at which point adding more clusters has diminishing returns on reducing inertia. 
